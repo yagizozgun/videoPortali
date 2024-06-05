@@ -14,9 +14,15 @@
     <form class="" action="" method="post" autocomplete="off">
       <input type="text" name="kullanici_adi" placeholder="Kullanıcı Numarası" required>
       <input type="password" name="kullanici_sifre" placeholder="Şifre" required>
-      <button type="button">GİRİŞ YAP</button>
+      <button type="button" id="girisButton">GİRİŞ YAP</button>
       <a class="registerButton">KAYIT OL</a>
     </form>
   </main>
+  
+<script>
+  document.getElementById("girisButton").addEventListener("click", function() {
+      window.location.href = "content.html";
+  });
+</script>
 </body>
 </html>
