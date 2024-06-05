@@ -11,16 +11,17 @@
 
   <main class="form-box">
     <h1>Hoş Geldin</h1>
-    <form class="" action="/content.html" method="post" autocomplete="off">
+    <form class="" action="/content.html" method="post" autocomplete="off" onsubmit="return false;">
       <input type="text" name="kullanici_adi" placeholder="Kullanıcı Numarası" required>
       <input type="password" name="kullanici_sifre" placeholder="Şifre" required>
-      <button type="submit" name="giris_yap" onclick="goToContentPage()">GİRİŞ YAP</button>
+      <button type="submit" name="giris_yap" onsubmit="return goToContentPage();">GİRİŞ YAP</button>
       <button class="registerButton">KAYIT OL</button>
     </form>
   </main>
 <script>
   function goToContentPage() {
     window.location.href = "content.html";
+    return false;
   }
 </script>
 </body>
