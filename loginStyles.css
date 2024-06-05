@@ -51,7 +51,7 @@ input[type="password"] {
   font-weight: lighter;
 }
 
-button[type="submit"] {
+button[type="button"] {
   background: #DD0B15;
   color: #fff;
   padding: 10px 20px;
@@ -59,14 +59,15 @@ button[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s all;
+  font-size: 16px;
+  font-weight: lighter;
 }
-
 button > a {
   text-decoration: none;
   color: #fff;
 }
 
-button[type="submit"]:hover {
+button[type="button"]:hover {
   background: #7b0208;
 }
 
@@ -88,6 +89,13 @@ button[type="submit"]:hover {
 
 textarea:focus, input:focus{
   outline: none;
+}
+
+form > a {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 @media (max-width: 600px) {
