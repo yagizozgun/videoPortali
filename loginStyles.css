@@ -51,7 +51,7 @@ input[type="password"] {
   font-weight: lighter;
 }
 
-button[type="button"] {
+button[type="submit"] {
   background: #DD0B15;
   color: #fff;
   padding: 10px 20px;
@@ -61,7 +61,7 @@ button[type="button"] {
   transition: 0.5s all;
 }
 
-button[type="button"]:hover {
+button[type="submit"]:hover {
   background: #7b0208;
 }
 
