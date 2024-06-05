@@ -61,6 +61,11 @@ button[type="submit"] {
   transition: 0.5s all;
 }
 
+button > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 button[type="submit"]:hover {
   background: #7b0208;
 }
