@@ -19,9 +19,9 @@
     </form>
   </main>
 <script>
-  function goToContentPage() {
+  function goToContentPage(event) {
+    event.preventDefault();
     window.location.href = "content.html";
-    return false;
   }
 </script>
 </body>
